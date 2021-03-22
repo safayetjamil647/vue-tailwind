@@ -1,5 +1,9 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <button
+      class="text-white rounded px-6 py-10 bg-red-500 hover:bg-red-700 ..."
+    >
+      Hover me
+    </button>
   </div>
 </template>

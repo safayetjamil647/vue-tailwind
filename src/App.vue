@@ -4,7 +4,8 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
-    <router-view/>
+    <router-view />
+    <Footer />
   </div>
 </template>
 
@@ -30,3 +31,14 @@
   color: #42b983;
 }
 </style>
+<script>
+// @ is an alias to /src
+import Footer from "@/components/Footer.vue";
+
+export default {
+  name: "Home",
+  components: {
+    Footer,
+  },
+};
+</script>
