@@ -1,6 +1,32 @@
 <template>
-  <div class="hello">
-    <h1>Hello</h1>
+  <div>
+    <div class="grid grid-cols-4 gap-3 bg-gray-200 py-10 font-mono">
+      <div>
+        <p class="text-xl ...">Lets Keep In Touch</p>
+        <p class="text-gray-400">
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts.
+        </p>
+      </div>
+      <div>
+        <p class="text-lg text-gray-500">Usefull Links</p>
+        <p class="text-lg font-semibold">About Us</p>
+        <p class="text-lg font-semibold">Blog</p>
+        <p class="text-lg font-semibold">Github</p>
+      </div>
+      <div>
+        <p class="text-lg text-gray-500">Other Resources</p>
+        <p class="text-lg font-semibold">Privacy Policy</p>
+        <p class="text-lg font-semibold">Terms and Conditions</p>
+        <p class="text-lg font-semibold">Contact Us</p>
+      </div>
+      <div>
+        <p class="text-lg text-gray-500">Contact</p>
+        <p class="text-lg font-semibold">Privacy Policy</p>
+        <p class="text-lg font-semibold">Terms and Conditions</p>
+        <p class="text-lg font-semibold">Contact Us</p>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -15,18 +41,4 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
 </style>
